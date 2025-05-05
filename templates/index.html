@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Travel Tweet Viewer</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f2f2f2;
+            padding: 30px;
+            margin: 0;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        form {
+            background: white;
+            padding: 20px;
+            border-radius: 12px;
+            margin-bottom: 30px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            justify-content: center;
+        }
+        label {
+            font-weight: bold;
+        }
+        select {
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            min-width: 180px;
+        }
+        button {
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            padding: 10px 20px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        .card {
+            background: white;
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.1);
+        }
+        .card h3 {
+            font-size: 20px;
+            margin: 0 0 10px 0;
+        }
+        .card p {
+            margin: 5px 0;
+        }
+        .type-badge {
+            display: inline-block;
+            padding: 4px 10px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: bold;
+            color: white;
+        }
+        .Activity { background-color: #28a745; }
+        .FB { background-color: #ffc107; color: black; }
+        .Shopping { background-color: #17a2b8; }
+        .Attractions { background-color: #6f42c1; }
+    </style>
+</head>
+<body>
+<h1>📍 Travel Tweet Viewer</h1>
+
+<!-- Filter Form (State, Price, Type only) -->
+<form method="POST">
+    <label for="state">State:</label>
+    <select name="state">
+        <option value="">All</option>
+        <option value="Kuala Lumpur">Kuala Lumpur</option>
+        <option value="Johor">Johor</option>
+        <option value="Kedah">Kedah</option>
+        <option value="Kelantan">Kelantan</option>
+        <option value="Melaka">Melaka</option>
+        <option value="Negeri Sembilan">Negeri Sembilan</option>
+        <option value="Pahang">Pahang</option>
+        <option value="Penang">Penang</option>
+        <option value="Perak">Perak</option>
+        <option value="Perlis">Perlis</option>
+        <option value="Putrajaya">Putrajaya</option>
+        <option value="Sabah">Sabah</option>
+        <option value="Sarawak">Sarawak</option>
+        <option value="Selangor">Selangor</option>
+        <option value="Terengganu">Terengganu</option>
+    </select>
+
+    <label for="price_category">Price:</label>
+    <select name="price_category">
+        <option value="">All</option>
+        <option value="LOW">LOW (RM0–50)</option>
+        <option value="MIDDLE">MIDDLE (RM51–150)</option>
+        <option value="HIGH">HIGH (RM151+)</option>
+    </select>
+
+    <label for="type">Type:</label>
+    <select name="type">
+        <option value="">All</option>
+        <option value="Activity">Activity</option>
+        <option value="F&B">F&B</option>
+        <option value="Shopping">Shopping</option>
+        <option value="Attractions">Attractions</option>
+    </select>
+
+    <button type="submit">Filter</button>
+</form>
+
+<!-- Display Each Recommended Place -->
+{% for r in recommendations %}
+<div class="card">
+    <h3>
+        📌 {{ r[1] }}
+        <span class="type-badge {{ r[7]|replace(' ', '-')|replace('&','') }}">
+            {{ r[7] }}
+        </span>
+    </h3>
+    <a href="{{ url_for('detail', id=r[0]) }}">
+        <button style="margin-top: 10px;">🔍 View Details</button>
+    </a>
+    <p><strong>Location:</strong> {{ r[2] }}</p>
+    <p><strong>State:</strong> {{ r[3] }}</p>
+    <p><strong>Price:</strong> {{ r[4] }}</p>
+    <p><strong>Rating:</strong> {{ r[5] }}
+        <span style="color: gold;">
+        {% for i in range(1, 6) %}
+            {% if r[5]|float >= i %}
+                ★
+            {% elif r[5]|float >= i - 0.5 %}
+                ☆
+            {% else %}
+                ☆
+            {% endif %}
+        {% endfor %}
+        </span>
+    </p>
+    <p><strong>Comment:</strong> {{ r[6] }}</p>
+</div>
+{% endfor %}
+
+</body>
+</html>

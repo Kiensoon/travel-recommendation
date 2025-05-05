@@ -1,0 +1,82 @@
+location,state,price,rating,platform,comment,type
+KL Tower,Kuala Lumpur,RM49,4.5,Instagram,"Amazing view from the top, especially during sunset.",Attractions
+Petronas Twin Towers,Kuala Lumpur,Free,4.7,Twitter,"Iconic landmark of Malaysia, great for photos!",Attractions
+Bukit Bintang,Kuala Lumpur,Free,4.3,Instagram,"Vibrant nightlife and shopping, very lively area.",Shopping
+Aquaria KLCC,Kuala Lumpur,RM46,4.4,Twitter,"Perfect for families, lots of marine life to explore.",Activity
+Taman Tasik Perdana,Kuala Lumpur,Free,4.2,Instagram,"A peaceful park in the city, ideal for morning walks.",Attractions
+Batu Caves,Selangor,Free,4.6,Twitter,"Majestic temple with colorful stairs, a must-visit.",Attractions
+Sunway Lagoon,Selangor,RM202,4.5,Instagram,Fun for all ages with various rides and water parks.,Attractions
+i-City,Selangor,RM30,4.1,Instagram,"Cool LED displays at night, good for Instagram shots.",Activity
+Sky Mirror,Selangor,RM80,4.3,Twitter,Best visited during low tide for the mirror effect!,Attractions
+Farm In The City,Selangor,RM58,4.2,Instagram,Great place for kids to interact with animals.,Activity
+Penang Hill,Penang,RM10,4.5,Twitter,Beautiful view and cool breeze at the top.,Attractions
+Kek Lok Si Temple,Penang,Free,4.6,Instagram,"Largest Buddhist temple, very cultural and peaceful.",Attractions
+Penang Street Art,Penang,Free,4.4,Instagram,"Unique murals everywhere, fun photo opportunities.",Activity
+Penang Peranakan Mansion,Penang,RM20,4.2,Twitter,Very informative and beautifully preserved mansion.,Activity
+ESCAPE Theme Park,Penang,RM150,4.5,Instagram,Lots of outdoor activities and a huge water slide.,Attractions
+SkyCab,Langkawi,RM30,4.6,Twitter,Breathtaking cable car ride with panoramic views.,Activity
+Pantai Cenang,Langkawi,Free,4.6,Instagram,Popular beach with lots of restaurants and shops.,F&B
+Langkawi Wildlife Park,Langkawi,RM45,4.4,Instagram,Family-friendly park with bird and animal feeding.,Attractions
+Tanjung Rhu Beach,Langkawi,Free,4.5,Twitter,"Quiet, clean beach with clear waters.",Attractions
+Langkawi Underwater World,Langkawi,RM43,4.3,Instagram,Great variety of sea life and educational exhibits.,Activity
+A Famosa,Melaka,Free,4.3,Instagram,"Historic site, rich in Malaysian heritage.",Attractions
+Jonker Street,Melaka,Free,4.5,Twitter,"Street food heaven, best at night.",F&B
+Melaka River Cruise,Melaka,RM30,4.4,Instagram,Relaxing boat ride with beautiful night lights.,Activity
+The Shore Sky Tower,Melaka,RM25,4.2,Twitter,Tallest building in Melaka with great views.,Attractions
+Zoo Melaka,Melaka,RM40,4.1,Instagram,A good weekend spot for families.,Activity
+Legoland Malaysia,Johor,RM189,4.5,Twitter,Exciting rides and LEGO-themed attractions.,Activity
+Desaru Coast,Johor,Free,4.3,Instagram,Clean beach with resorts and water activities.,Attractions
+Endau-Rompin National Park,Johor,RM20,4.4,Instagram,Natural rainforest adventure and eco-tourism.,Attractions
+Danga Bay,Johor,Free,4.1,Twitter,Nice place for a stroll and food near the sea.,F&B
+Johor Premium Outlets,Johor,Free,4.3,Instagram,"Branded goods at discounted prices, shopping heaven!",Shopping
+Mount Kinabalu,Sabah,RM120,4.8,Instagram,"Challenging but rewarding climb, great for hikers.",Activity
+Tunku Abdul Rahman Park,Sabah,RM30,4.6,Twitter,Great for snorkeling and diving with clear water.,Attractions
+Kundasang,Sabah,Free,4.7,Instagram,Cool weather and beautiful farms to visit.,Activity
+Poring Hot Spring,Sabah,RM10,4.2,Twitter,"Hot springs in the jungle, very refreshing.",Activity
+Sepilok Orangutan Centre,Sabah,RM30,4.5,Instagram,Famous for orangutans and conservation efforts.,Activity
+Bako National Park,Sarawak,RM20,4.6,Instagram,"Trekking and wildlife watching, great for nature lovers.",Attractions
+Mulu Caves,Sarawak,RM30,4.7,Twitter,Impressive cave system with ancient formations.,Activity
+Kuching Waterfront,Sarawak,Free,4.3,Instagram,Romantic river walk with many cafes.,F&B
+Cat Museum,Sarawak,RM3,4.1,Twitter,Fun and quirky museum for cat lovers.,Attractions
+Sarawak Cultural Village,Sarawak,RM60,4.4,Instagram,"Live shows and traditional houses, very educational.",Activity
+Redang Island,Terengganu,RM5,4.7,Instagram,White sandy beaches and crystal-clear waters.,Attractions
+Perhentian Islands,Terengganu,RM5,4.8,Twitter,Perfect island for diving and beach chill.,Attractions
+Crystal Mosque,Terengganu,Free,4.5,Instagram,"Stunning architecture, especially at night.",Attractions
+Pantai Batu Buruk,Terengganu,Free,4.2,Twitter,Windy beach with good local food nearby.,F&B
+Kenyir Lake,Terengganu,RM10,4.3,Instagram,"Good for boating, fishing, and sightseeing.",Attractions
+Genting Highlands,Pahang,RM60,4.5,Instagram,Cool mountain air with lots of entertainment.,Activity
+Cameron Highlands,Pahang,Free,4.6,Twitter,"Tea plantations and strawberries, great escape spot.",Activity
+Bukit Tinggi,Pahang,RM15,4.4,Instagram,French-themed village with photogenic spots.,Activity
+Taman Negara,Pahang,RM5,4.7,Twitter,"Jungle trekking, canopy walks, and river tours.",Activity
+Fraser's Hill,Pahang,Free,4.2,Instagram,Peaceful hillside with British colonial charm.,Attractions
+Kellie's Castle,Perak,RM10,4.3,Twitter,Historical site with unique architecture and spooky stories.,Attractions
+Ipoh Old Town Food Trail,Perak,RM20,4.5,Instagram,Enjoy white coffee and local delights in charming old streets.,F&B
+Ipoh Parade Souvenir Stalls,Perak,RM15,4.1,Twitter,Good variety of local crafts and souvenirs.,Shopping
+Pantai Cenang,Kedah,Free,4.6,Twitter,Beautiful beach with stunning sunsets and vibrant night markets.,Shopping
+Penang Hill,Penang,RM10,4.5,Twitter,"Scenic hilltop views and cool weather, perfect for a relaxing day.",Attractions
+Batu Ferringhi,Penang,Free,4.5,Instagram,Famous for its beachside markets and water sports activities.,Shopping
+Gurney Drive,Penang,RM30,4.5,Instagram,Seaside promenade with iconic Penang hawker food.,F&B
+KL Tower,Kuala Lumpur,RM49,4.3,Instagram,Iconic observation deck with panoramic views of the city skyline.,Attractions
+Pavilion Food Hall,Kuala Lumpur,RM40,4.4,Instagram,Modern mall with diverse food choices from all over Asia.,F&B
+Jonker Street,Melaka,Free,4.4,Instagram,"Popular for food, heritage buildings, and weekend night market.",F&B
+Cameron Highlands,Pahang,RM15,4.6,Twitter,Cool climate destination with tea plantations and strawberry farms.,Activity
+Fraser’s Hill Bird Interpretive Centre,Pahang,Free,4.2,Twitter,Educational centre in a colonial-style hill resort.,Attractions
+Gunung Mulu National Park,Sarawak,RM30,4.8,Instagram,UNESCO World Heritage site with incredible limestone cave systems.,Attractions
+Kuching Waterfront,Sarawak,Free,4.4,Instagram,Chill riverside area with cafes and local performances.,F&B
+Sipadan Island,Sabah,RM40,4.9,Twitter,Top diving destination with crystal clear waters and marine life.,Attractions
+Redang Island,Terengganu,RM5,4.7,Twitter,Crystal-clear water with amazing marine life. Great for snorkeling.,Attractions
+Pasar Payang,Terengganu,Free,4.2,Twitter,"Bustling market with batik, keropok lekor, and handicrafts.",Shopping
+Desaru Fruit Farm,Johor,RM25,4.3,Instagram,Family-friendly fruit farm with guided tours and tasting.,F&B
+Sky Mirror,Selangor,RM80,4.3,Twitter,Natural phenomenon creating mirror-like reflections at sea.,Attractions
+Langkawi Sky Bridge,Kedah,RM6,4.7,Instagram,A curved pedestrian bridge offering stunning views of Langkawi's mountains.,Attractions
+Langkawi Night Market,Kedah,RM10,4.4,Twitter,"Local street food, clothes and souvenirs at night.",F&B
+Gua Kelam,Perlis,RM5,4.3,Instagram,A limestone cave with a walkway through a former tin mine.,Activity
+Padang Besar Market,Perlis,RM30,4.2,Twitter,Cross-border market with cheap Thai products and snacks.,Shopping
+Port Dickson Beach,Negeri Sembilan,Free,4.2,Instagram,Popular beach for weekend getaways and water sports.,Attractions
+Seremban Street Food,Negeri Sembilan,RM25,4.3,Twitter,Well-known for beef noodles and baked crabs.,F&B
+Siti Khadijah Market,Kelantan,RM20,4.4,Instagram,"Market famous for traditional snacks, clothing, and spices.",Shopping
+Pantai Cahaya Bulan,Kelantan,Free,4.1,Twitter,Beach known for its serene vibes and kite flying.,Attractions
+Putra Mosque,Putrajaya,Free,4.6,Instagram,Stunning pink-domed mosque by the lake.,Attractions
+Putrajaya Food Trucks,Putrajaya,RM20,4.3,Twitter,Evening food truck park with live music and variety of bites.,F&B
+Labuan War Cemetery,Sabah,Free,4.5,Instagram,A historical site honouring WWII soldiers.,Activity
+Labuan Financial Park Souvenir Kiosk,Sabah,RM15,4,Twitter,Souvenir options with duty-free items.,Shopping
